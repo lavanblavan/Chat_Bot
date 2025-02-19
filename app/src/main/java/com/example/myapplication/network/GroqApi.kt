@@ -42,7 +42,7 @@ data class Usage(
 
 // Groq API Interface definition
 interface GroqApi {
-    @Headers("Authorization: Bearer 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")  // Make sure to replace YOUR_API_KEY with the actual API key
+    @Headers("Authorization: Bearer Your API key")  // Make sure to replace YOUR_API_KEY with the actual API key
     @POST("openai/v1/chat/completions")
     suspend fun sendMessage(@Body request: GroqRequest): GroqResponse
 }
