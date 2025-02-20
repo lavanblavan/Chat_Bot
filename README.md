@@ -14,7 +14,7 @@
   <h2>Installation</h2>
     <ol>
         <li>Clone the repository:</li>
-        <pre><code>git clone https://github.com/Chat_bot.git</code></pre>
+        <pre><code>git clone [https://github.com/Chat_bot](https://github.com/lavanblavan/Chat_Bot.git]</code></pre>
         <li>Open the project in Android Studio.</li>
         <li>Update <code>AndroidManifest.xml</code> with necessary permissions if required.</li>
         <li>Run the application on an emulator or a physical device.</li>
